@@ -1,3 +1,4 @@
+PImage cara;
 class Globo
 {
   color c;
@@ -10,7 +11,13 @@ class Globo
    vy=random(-2,-0.5);
    c = color(random(0, 254),
              random(100,250),
+<<<<<<< HEAD
              random(2, 30));
+=======
+             random(2, 240));
+             
+   
+>>>>>>> faces
   }
 
   void update()
@@ -24,6 +31,7 @@ class Globo
       fill(c);
       strokeWeight(3);
       ellipse(x,y,70,100);
+      image(cara, x , y);
   }
   
 }
@@ -35,6 +43,7 @@ void setup()
 {
   size(640,480);
   globos = new ArrayList<Globo>();  
+  cara = loadImage("Obama-cara.jpg");
 }
 
 void draw()
