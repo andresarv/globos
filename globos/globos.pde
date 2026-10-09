@@ -10,7 +10,7 @@ class Globo
    vy=random(-2,-0.5);
    c = color(random(0, 254),
              random(100,250),
-             random(2, 240));
+             random(2, 30));
   }
 
   void update()
