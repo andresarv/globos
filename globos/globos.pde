@@ -11,13 +11,9 @@ class Globo
    vy=random(-2,-0.5);
    c = color(random(0, 254),
              random(100,250),
-<<<<<<< HEAD
-             random(2, 30));
-=======
              random(2, 240));
              
    
->>>>>>> faces
   }
 
   void update()
