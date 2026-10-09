@@ -9,9 +9,9 @@ class Globo
    y=_y; 
    vx=random(-0.25,0.25);
    vy=random(-2,-0.5);
-   c = color(random(0, 254),
-             random(100,250),
-             random(2, 240));
+   c = color(random(0, 255),
+             random(0,255),
+             random(0, 255));
              
    
   }
