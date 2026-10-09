@@ -27,7 +27,7 @@ class Globo
       fill(c);
       strokeWeight(3);
       ellipse(x,y,70,100);
-      image(cara, x , y);
+      image(cara, x - 35 , y - 50);
   }
   
 }
